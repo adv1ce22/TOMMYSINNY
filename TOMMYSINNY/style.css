@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    align-items: center;
+}
