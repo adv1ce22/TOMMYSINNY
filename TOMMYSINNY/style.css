@@ -2,6 +2,7 @@ body{
     background-color: rgb(255, 255, 255);
 }
 header a{ 
+    background-color: white;
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -12,9 +13,9 @@ header a{
 .container {
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
-    grid-template-rows: 350px 350px;
-    gap: 20px 50px;
-    margin-left: 200px;
+    grid-template-rows: 400px 400px;
+    gap: 20px 40px;
+    margin-left: 250px;
     margin-top: 100px;
     width: 15%;
 }
@@ -33,3 +34,27 @@ header a{
 .sourse4{
     box-shadow: 0px 0px 12px rgb(206, 205, 205);
 }
+.sourse5{
+    box-shadow: 0px 0px 12px rgb(206, 205, 205);
+}
+.button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 12px;
+    width: 80px;
+    height: 25px;
+    box-shadow: 0px 0px 12px rgb(206, 205, 205);
+}
+.button:hover{
+    transform: scale(1.2)
+}
+.button:active{
+    background-color: rgb(77, 75, 75);
+    color: white;
+}
+.zoom-effect {
+    transition: transform 0.2s;
+  }
+  .zoom-effect:hover {
+    transform: scale(1.2);
+  }
